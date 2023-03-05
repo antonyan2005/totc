@@ -1,0 +1,10 @@
+.home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+}

@@ -1,0 +1,16 @@
+.headerBottom {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1400px) {
+    .headerBottom {
+       justify-content: center;
+       align-items: center;
+       align-content: center;
+       flex-direction: column;
+    }
+}

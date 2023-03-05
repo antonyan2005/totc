@@ -1,0 +1,10 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(73, 187, 189);
+    margin-bottom: 60px;
+    border-radius: 0 0 200px 200px;
+    overflow: hidden;
+}

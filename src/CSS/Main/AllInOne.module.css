@@ -1,0 +1,237 @@
+.AllInOne {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    cursor: default;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 180%;
+    color: #2F327D;
+}
+
+.greenText {
+    color: #00CBB8;
+}
+
+.text {
+    width: 49%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #696984;
+}
+
+.cards {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 127px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+
+.cardMain {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    max-height: 400px;
+    padding: 70px 10px 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+}
+
+.iconDocument,
+.iconCalendar,
+.iconGroup {
+    z-index: 1;
+    position: absolute;
+    bottom: -40px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 100%;
+    box-shadow: 0px 10px 40px rgba(54, 61, 136, 0.06);
+}
+
+.iconDocument {
+    background: #5B72EE;
+}
+
+.iconCalendar {
+    background: #00CBB8;
+}
+
+.iconGroup {
+    background: #29B9E7;
+}
+
+.icon {
+    color: white;
+    font-size: 60px;
+}
+
+.cardTitle {
+    width: 90%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #2F327D;
+}
+
+.cardText {
+    width: 90%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    color: #696984;
+}
+
+@media screen and (max-width: 680px) {
+    .AllInOne {
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .text {
+        width: 60%;
+        font-size: 12px;
+    }
+
+    /*  */
+    .cards {
+        width: 100%;
+        margin-top: 63.5px;
+        justify-content: center;
+        gap: 5px;
+
+    }
+
+    .card {
+        width: 30%;
+    }
+
+
+    .cardMain {
+        height: 250px;
+        max-height: 250px;
+        padding: 35px 5px 25px;
+        gap: 15px;
+        box-shadow: 0px 5px 30px rgba(38, 45, 118, 0.08);
+    }
+
+    .iconDocument,
+    .iconCalendar,
+    .iconGroup {
+        bottom: -20px;
+        width: 40px;
+        height: 40px;
+        box-shadow: 0px 5px 20px rgba(54, 61, 136, 0.06);
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+
+    .cardTitle {
+        width: 90%;
+        font-size: 15px;
+        line-height: 22.5px;
+    }
+
+    .cardText {
+        width: 90%;
+        font-size: 10px;
+        line-height: 180%;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 680px) {
+    .cards {
+        width: 100%;
+        margin-top: 63.5px;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .card {
+        width: 30%;
+    }
+
+
+    .cardMain {
+        height: 300px;
+        max-height: 350px;
+        padding: 52.5px 7.5px 37.5px;
+        gap: 22.5px;
+        box-shadow: 0px 7.5px 45px rgba(38, 45, 118, 0.08);
+    }
+
+    .iconDocument,
+    .iconCalendar,
+    .iconGroup {
+        bottom: -30px;
+        width: 60px;
+        height: 60px;
+        box-shadow: 0px 2.5px 10px rgba(54, 61, 136, 0.06);
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+
+    .cardTitle {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .cardText {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 680px) {
+    .cardMain {
+        height: 350px;
+        max-height: 350px;
+    }
+}

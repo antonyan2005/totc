@@ -1,0 +1,196 @@
+.whatIsTotc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    cursor: default;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 180%;
+    text-align: center;
+    color: #2F327D;
+    line-height: 100px;
+}
+
+.green {
+    color: #00CBB8;
+}
+
+.text {
+    width: 65%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    text-align: center;
+    color: #696984;
+}
+
+.images {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.imgDiv {
+    width: 600px;
+    height: 400px;
+    max-height: 400px;
+    min-width: 600px;
+    border-radius: 20px;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    filter: contrast(100%);
+}
+
+.imgDiv:nth-child(1) {
+    background: url(../../../Images/whatIsTotcImg1.png);
+    background-size: 100%;
+}
+
+.imgDiv:nth-child(2) {
+    background: url(../../../Images/whatIsTotcImg2.png);
+    background-size: 100%;
+}
+
+.onImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.onImgTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.onImgBtn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 290px;
+    height: 80px;
+    background: none;
+    box-shadow: 0px 20px 24px rgba(0, 0, 0, 0.03);
+    border-radius: 80px;
+    margin: 1%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    border: 1px solid #FFFFFF;
+}
+
+.onImgBtn:before {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    width: 3em;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: -4.5em;
+    transform: skewX(-45deg) translateX(0);
+    transition: none;
+}
+
+.onImgBtn:hover {
+    background: rgba(35, 189, 238, 0.9);
+    color: #fff;
+    border: 2px solid rgba(35, 189, 238, 0.9);
+}
+
+.onImgBtn:hover:before {
+    transform: skewX(-45deg) translateX(29.5em);
+    transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width : 680px) {
+    .title {
+        font-size: 22px;
+        line-height: 50px;
+    }
+
+    .text {
+        font-size: 11px;
+    }
+
+    .images {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .imgDiv {
+        width: 10 0%;
+        height: 300px;
+        max-height: 300px;
+        min-width: 500px;
+        border-radius: 20px;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        filter: contrast(100%);
+    }
+
+    .onImg {
+        gap: 7.5px;
+    }
+
+    .onImgTitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .onImgBtn {
+        width: 145px;
+        height: 40px;
+        box-shadow: 0 10px 12px rgba(0, 0, 0, 0.03);
+        border-radius: 40px;
+        font-size: 11px;
+        letter-spacing: 0.01em;
+        border: .5px solid #FFFFFF;
+    }
+
+    .onImgBtn:before {
+        width: 1.5em;
+        left: -2.25em;
+    }
+
+    .onImgBtn:hover {
+        border: 1px solid rgba(35, 189, 238, 0.9);
+    }
+
+}

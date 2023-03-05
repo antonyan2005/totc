@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Reggae+One&family=Roboto:wght@100&display=swap');
+
+
+.ourSuccessDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    cursor: default;
+}
+
+.text {
+    width: 49%;
+}
+
+.text h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    color: #010514;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-family: 'Golos Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(1, 5, 20, 0.8);
+}
+
+.numbers {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0 70px;
+}
+
+.number {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.num {
+    text-transform: uppercase;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 300;
+    font-size: 86px;
+    line-height: 100%;
+    background: linear-gradient(90deg, #136CB5 0%, #49BBBD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.title {
+    font-family: 'Golos Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    color: rgba(1, 5, 20, 0.8);
+
+}
+
+@media screen and (max-width: 680px) {
+
+    .text {
+        width: 60%;
+    }
+
+    .text h1 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .text p {
+        font-size: 9px;
+    }
+
+    .numbers {
+        margin: 0 0 20px;
+        flex-wrap: wrap;
+    }
+
+    .number {
+        margin: 0px 0;
+    }
+
+    .num {
+        font-size: 43px;
+    }
+
+    .title {
+        font-size: 11px;
+    }
+
+}

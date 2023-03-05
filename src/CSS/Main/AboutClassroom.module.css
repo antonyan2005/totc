@@ -1,0 +1,135 @@
+.container {
+    margin-top: 120px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    cursor: default;
+}
+
+.textDiv {
+    width: 650px;
+    height: 400px;
+    min-width: 650px;
+    max-height: 400px;
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.bigCircle,
+.littleCircle {
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    background: #33EFA0;
+    border-radius: 100%;
+}
+
+.littleCircle {
+    width: 30px;
+    height: 30px;
+    right: 40px;
+    bottom: 32%;
+}
+
+.textMain,
+.imgMain {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 10;
+}
+
+.textMain {
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.imgMain {
+    width: 90%;
+    height: 90%;
+    background-color: violet;
+    background: url(../../../Images/classroom.png);
+    border-radius: 20px;
+}
+
+.title {
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 160%;
+    color: #2F327D;
+}
+
+.green {
+    color: #00CBB8;
+}
+
+.text {
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #696984;
+}
+
+.link a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    text-decoration-line: underline;
+    color: #696984;
+    float: left;
+    text-align: left;
+}
+
+.link {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 600px;
+    height: 500px;
+    min-width: 600px;
+    max-height: 500px;
+    position: relative;
+}
+
+.littleSquere {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    background: #23BDEE;
+    border-radius: 20px;
+}
+
+.bigSquere {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 231px;
+    height: 231px;
+    background: #33EFA0;
+    border-radius: 20px;
+}
